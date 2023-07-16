@@ -11,7 +11,7 @@
     
     border-radius: 8px;
     background: #FF900E;
-    border: 0;
+    border: none;
     font-size: 1.25rem;
     color: #FFF;
     font-weight: 600;
@@ -54,7 +54,7 @@ nav li{
 nav li a{
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
     
 
@@ -266,6 +266,21 @@ main{
      justify-content: space-around;
     
 }
+
+.sponsors-img-container img{
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: #424242;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: bisque;
+    /* padding: 39px 410px; */
+
+}
+
 /* Responsive design */
 /* Design for mobile device */
 
@@ -276,7 +291,8 @@ main{
     nav,
     .feature-section,
     .main-feature,
-    .facts-card-container{
+    .facts-card-container,
+    .sponsors-img-container{
         flex-direction: column;
     }
 
