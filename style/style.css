@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,600;0,700;0,800;1,800&display=swap');
+
+/* shared styles */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.btn-primary{
+    
+    border-radius: 8px;
+    background: #FF900E;
+    border: 0;
+    font-size: 1.25rem;
+    color: #FFF;
+    font-weight: 600;
+    padding: 20px 25px;
+
+}
+
+/* Header style */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+
+}
+
+nav > ul{
+    display: flex;
+    
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+    
+}
+
+nav li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    
+
+}
+
+/* banner styles */
+
+.banner{
+    margin-top: 100px;
+
+    
+}
+
+.banner-container{
+    max-width: 860px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.banner-title{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    
+}
+
+.banner-description{
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400px;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* main styles*/
+main{
+    max-width: 1440px;
+    margin: 85px auto;
+}
+
+/* feature styles */
+.feature-section{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+}
+.feature-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.feature-title{
+    color:#727272 ;
+    font-size: 2.8rem;
+    font-weight: 500;
+
+}
+
+.feature-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    margin:24px 0px 32px 0px;
+
+}
