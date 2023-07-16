@@ -136,6 +136,67 @@ main{
 
 }
 
+/* Main feature design here */
+
+.main-feature{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.main-feature .main-feature-title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding-left: 20px;
+    border-left:5px solid #FF900E;
+
+}
+
+.main-feature-description{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 24px 0px 60px 0px;
+}
+
+.main-feature .card{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.main-feature-img img{
+    height: 75%;
+    margin-left: 109px;
+}
+
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 342px;
+    padding: 45px 42px;
+    text-align: center;
+    position: relative;
+    bottom: 109px;
+
+}
+
+.ten-years-badge h2{
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.ten-years-badge p{
+    color: #FFF;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+
 
 /* Responsive design */
 /* Design for mobile device */
